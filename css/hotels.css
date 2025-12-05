@@ -7,8 +7,8 @@
 
 .image {
     width: 300px;
-    padding: 10px;
-    box-shadow: 10px 10px 5px lightgray;
+    padding: 20px;
+    box-shadow: 10px 10px 5px lightblue;
     background-color: lightcyan;
-    border: solid 1px black;
+    border: solid 1px rgba(93, 72, 209, 0.5);
 }
