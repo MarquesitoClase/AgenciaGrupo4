@@ -1,0 +1,14 @@
+#cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.image {
+    width: 300px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px lightgray;
+    background-color: lightcyan;
+    border: solid 1px black;
+}
