@@ -1,3 +1,17 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#hotelCards {
+    margin: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 #cards {
     display: flex;
     justify-content: center;
@@ -5,10 +19,74 @@
     gap: 50px;
 }
 
-.image {
-    width: 300px;
-    padding: 20px;
-    box-shadow: 10px 10px 5px lightblue;
+.card {
+    width: 350px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px lightgray;
     background-color: lightcyan;
-    border: solid 1px rgba(93, 72, 209, 0.5);
+    border-width: 0px 0px 10px 0px;
+    border-color: cadetblue;
+    border-style: solid;
+    border-radius: 0px 0px 5px 5px;
+    gap: 20px;
+}
+
+.description {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.hotelImage {
+    width: 350px;
+}
+
+.hotelName {
+    font-weight: bold;
+    font-size: 17pt;
+}
+
+.hotelCategory,
+.hotelRating,
+.hotelUserRating,
+.hotelCountRating,
+.hotelPriceMessage {
+    font-size: 10pt;
+    margin: 3px;
+}
+
+.hotelRating {
+    background-color: peru;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.hotelUserRating,
+.hotelCountRating,
+.hotelTags {
+    align-content: center;
+    color: grey;
+}
+
+.description {
+    width: 350px;
+    margin-top: 5px;
+}
+
+.price {
+    text-align: right;
+}
+
+.hotelPriceOriginal {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.hotelPriceOffer {
+    font-size: 23pt;
+    color: darkred;
+    font-weight: bold;
+}
+
+.hotelLocation{
+    width: auto;
 }
