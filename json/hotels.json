@@ -1,0 +1,34 @@
+{
+    "hotels": [
+        {
+            "id": 0,
+            "name": "Melia Alicante",
+            "country": "España",
+            "city": "Alicante",
+            "category": "⭐⭐⭐⭐",
+            "rating": "8.9",
+            "userRating": "Excelente",
+            "countRating": "6266",
+            "locationDescription": "a 100 metros de la playa",
+            "tags": [
+                {
+                    "unchecked": [
+                        "frente al mar",
+                        "spa",
+                        "piscina",
+                        "salorium"
+                    ],
+                    "checked": [
+                        "aparcamiento gratuito"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "850 €",
+                "offer": "673 €",
+                "message": "precio total por una noche"
+            },
+            "image": "hotel0.png"
+        }
+    ]
+}
