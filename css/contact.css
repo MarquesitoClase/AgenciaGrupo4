@@ -1,0 +1,70 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    margin: 50px;
+}
+
+#contactCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact {
+    width: 350px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px lightgray;
+    background-color: lightcyan;
+    border-width: 0px 0px 10px 0px;
+    border-color: rgb(95, 160, 95);
+    border-style: solid;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.imageMap {
+    width: 100%;
+}
+
+.department {
+    font-weight: bold;
+}
+
+.button {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background-color: rgba(214, 199, 67, 0.5);
+}
+
+.responsible {
+    font-style: italic;
+}
+
+.departmentmini,
+.responsiblemini,
+.openingmini,
+.citymini {
+    font-size: 8pt;
+    font-style: italic;
+    color:grey;
+}
+
+.telefonista {
+    width: 250px;
+    border-radius: 150px;
+}
+
+#extra {
+    text-align: center;
+}
