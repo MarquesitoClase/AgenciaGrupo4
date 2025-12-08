@@ -85,3 +85,15 @@ function createHotelCards({ id, name, country, city, category, rating, userRatin
 }
 
 loadJson();
+
+let URLHeader = "header.html";
+
+class MiHeader extends HTMLElement {
+    connectedCallback() {
+        fetch(URLHeader)
+            .then(r => r.text())
+            .then(html => this.innerHTML = html);
+    }
+}
+
+customElements.define("my-header", MiHeader);
