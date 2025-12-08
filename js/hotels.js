@@ -1,5 +1,5 @@
 let filepath = "../json/hotels.json";
-let filepathImages = "../media/images/";
+let filepathImages = "../media/images/hotels";
 let node = document.getElementById("hotelCards");
 
 function loadJson() {
@@ -17,7 +17,7 @@ function createHotelCards({ id, name, country, city, category, rating, userRatin
     return `
     <div class="card">
         <div>
-            <img class="hotelImage" src=${filepathImages}${image}>
+            <img class="hotelImage" src=${filepathImages}/${image}>
         </div>
         <div>
             <p class="hotelName">${name}</p>
