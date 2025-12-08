@@ -13,6 +13,44 @@ function displayData(json) {
     node.innerHTML = content;
 }
 
+function loadJsonSort() {
+    fetch(filepath)
+        .then(response => response.json())
+        .then(data => sort(data))
+}
+
+function sort(data) {
+    let sort = data.hotels.sort((a, b) => {
+        return parseInt(a.price.offer) - parseInt(b.price.offer);
+    });
+
+    let result = { "hotels": sort };
+
+    //console.log(json);
+    //console.log(result);
+
+    setTimer('precio');
+    setTimeout(function () {
+        displayData(result);
+        removeAlerts();
+    }, 2000);
+    //displayData(result);
+}
+
+function removeAlerts() {
+    document.getElementsByClassName("message")[0].remove();
+}
+function setTimer(filter) {
+    let body = document.getElementsByTagName("body")[0];
+    let node = document.createElement("p");
+    node.classList.add("message");
+    node.innerHTML = `
+        Ordenando tarjetas por ${filter}...
+    `
+    body.appendChild(node);
+
+}
+
 function createHotelCards({ id, name, country, city, category, rating, userRating, countRating, locationDescription, tags, price, image }) {
     return `
     <div class="card">

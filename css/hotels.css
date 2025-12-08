@@ -90,3 +90,30 @@
 .hotelLocation{
     width: auto;
 }
+
+nav {
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 30px 30px 0px 30px;
+}
+
+.navElement {
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+* {
+    transition: all 2s;
+}
+
+.message {
+    position: absolute;
+    top: 50vh;
+    left: 40vw;
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+}
