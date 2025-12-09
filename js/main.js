@@ -57,3 +57,23 @@ document.addEventListener("DOMContentLoaded", () => {
       img.draggable = false;
       img.addEventListener("dragstart", (e) => e.preventDefault());
     });
+
+    const getScrollAmount = () => gallery.clientWidth || 400;
+
+    if (prevBtn) {
+      prevBtn.addEventListener("click", () => {
+        gallery.scrollBy({
+          left: -getScrollAmount(),
+          behavior: "smooth",
+        });
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener("click", () => {
+        gallery.scrollBy({
+          left: getScrollAmount(),
+          behavior: "smooth",
+        });
+      });
+    }
