@@ -326,6 +326,296 @@
                 "message": "precio orientativo por noche en temporada baja"
             },
             "image": "hotel10.png"
+        },
+        {
+            "id": 11,
+            "name": "ibis Paris Montmartre Sacré-Cœur",
+            "country": "Francia",
+            "city": "París",
+            "category": "⭐⭐⭐",
+            "rating": "8.0",
+            "userRating": "Muy bien",
+            "countRating": "1000+",
+            "locationDescription": "en Montmartre, a pocos minutos del Moulin Rouge y Sacré-Cœur",
+            "tags": [
+                {
+                    "unchecked": [
+                        "desayuno buffet",
+                        "bar",
+                        "aire acondicionado"
+                    ],
+                    "checked": [
+                        "buena conexión transporte público"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "120 €",
+                "offer": "89 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel11.png"
+        },
+        {
+            "id": 12,
+            "name": "Hotel Santa Maria",
+            "country": "Italia",
+            "city": "Roma",
+            "category": "⭐⭐⭐",
+            "rating": "9.2",
+            "userRating": "Excelente",
+            "countRating": "3000+",
+            "locationDescription": "en el barrio de Trastevere, cerca de la Piazza Santa Maria",
+            "tags": [
+                {
+                    "unchecked": [
+                        "terraza",
+                        "servicio de lavandería",
+                        "wifi gratis"
+                    ],
+                    "checked": [
+                        "jardín interior"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "180 €",
+                "offer": "135 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel12.png"
+        },
+        {
+            "id": 13,
+            "name": "Hotel Antiche Figure",
+            "country": "Italia",
+            "city": "Venecia",
+            "category": "⭐⭐⭐",
+            "rating": "8.8",
+            "userRating": "Muy bueno",
+            "countRating": "4000+",
+            "locationDescription": "a orillas del Gran Canal, cerca de la estación Santa Lucia",
+            "tags": [
+                {
+                    "unchecked": [
+                        "vistas al canal",
+                        "recepción 24h",
+                        "desayuno"
+                    ],
+                    "checked": [
+                        "ubicación céntrica"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "220 €",
+                "offer": "170 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel13.png"
+        },
+        {
+            "id": 14,
+            "name": "Hotel Not Hotel",
+            "country": "Países Bajos",
+            "city": "Ámsterdam",
+            "category": "⭐⭐⭐",
+            "rating": "7.6",
+            "userRating": "Bien",
+            "countRating": "2000+",
+            "locationDescription": "diseño boutique, en un barrio céntrico con fácil acceso al transporte",
+            "tags": [
+                {
+                    "unchecked": [
+                        "diseño creativo",
+                        "bares cercanos",
+                        "sin ascensor (edificio bajo)"
+                    ],
+                    "checked": [
+                        "ambiente original"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "150 €",
+                "offer": "105 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel14.png"
+        },
+        {
+            "id": 15,
+            "name": "Hotel Borges Chiado",
+            "country": "Portugal",
+            "city": "Lisboa",
+            "category": "⭐⭐⭐",
+            "rating": "7.8",
+            "userRating": "Bueno",
+            "countRating": "2500+",
+            "locationDescription": "en el barrio de Chiado, muy cerca de Barrio Alto y Baixa",
+            "tags": [
+                {
+                    "unchecked": [
+                        "restaurante",
+                        "terraza",
+                        "habitaciones espaciosas"
+                    ],
+                    "checked": [
+                        "ubicación excelente"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "140 €",
+                "offer": "99 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel15.png"
+        },
+        {
+            "id": 16,
+            "name": "Marriott Mena House, Cairo",
+            "country": "Egipto",
+            "city": "El Cairo",
+            "category": "⭐⭐⭐⭐⭐",
+            "rating": "8.7",
+            "userRating": "Muy bien",
+            "countRating": "5000+",
+            "locationDescription": "resort clásico con vistas a las pirámides de Giza, situado a los pies de las pirámides",
+            "tags": [
+                {
+                    "unchecked": [
+                        "spa",
+                        "piscina al aire libre",
+                        "varios restaurantes"
+                    ],
+                    "checked": [
+                        "vistas a las pirámides"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "420 €",
+                "offer": "345 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel16.png"
+        },
+        {
+            "id": 17,
+            "name": "The Liberty, a Luxury Collection Hotel",
+            "country": "Estados Unidos",
+            "city": "Boston",
+            "category": "⭐⭐⭐⭐⭐",
+            "rating": "9.0",
+            "userRating": "Excelente",
+            "countRating": "4200+",
+            "locationDescription": "hotel histórico reconvertido desde la antigua cárcel Charles Street, en Beacon Hill, cerca de Boston Common",
+            "tags": [
+                {
+                    "unchecked": [
+                        "restaurantes y bares",
+                        "gimnasio",
+                        "salas de reuniones"
+                    ],
+                    "checked": [
+                        "ubicación céntrica"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "550 €",
+                "offer": "420 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel17.png"
+        },
+        {
+            "id": 18,
+            "name": "Alvear Palace Hotel",
+            "country": "Argentina",
+            "city": "Buenos Aires",
+            "category": "⭐⭐⭐⭐⭐",
+            "rating": "9.4",
+            "userRating": "Excelente",
+            "countRating": "8000+",
+            "locationDescription": "palacete de lujo en Recoleta, a pasos de avenidas y museos emblemáticos",
+            "tags": [
+                {
+                    "unchecked": [
+                        "restaurante de lujo",
+                        "spa",
+                        "servicio de mayordomo"
+                    ],
+                    "checked": [
+                        "estilo clásico y elegante"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "480 €",
+                "offer": "395 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel18.png"
+        },
+        {
+            "id": 19,
+            "name": "Hotel Niwa Tokyo",
+            "country": "Japón",
+            "city": "Tokio",
+            "category": "⭐⭐⭐⭐",
+            "rating": "8.6",
+            "userRating": "Muy bien",
+            "countRating": "2200+",
+            "locationDescription": "hotel de estilo moderno-japonés con jardines interiores, cerca de la zona de Suidobashi / Tokyo Dome",
+            "tags": [
+                {
+                    "unchecked": [
+                        "restaurante japonés",
+                        "salones tranquilos",
+                        "wifi gratis"
+                    ],
+                    "checked": [
+                        "jardines interiores"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "200 €",
+                "offer": "155 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel19.png"
+        },
+        {
+            "id": 20,
+            "name": "Baur au Lac",
+            "country": "Suiza",
+            "city": "Zúrich",
+            "category": "⭐⭐⭐⭐⭐",
+            "rating": "9.3",
+            "userRating": "Excelente",
+            "countRating": "3000+",
+            "locationDescription": "hotel clásico de lujo con vistas al lago de Zúrich y a los Alpes, ubicado en un parque privado",
+            "tags": [
+                {
+                    "unchecked": [
+                        "restaurante gourmet",
+                        "servicio de conserjería 24h",
+                        "salones para eventos"
+                    ],
+                    "checked": [
+                        "vistas al lago"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "760 €",
+                "offer": "610 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel20.png"
         }
     ]
 }

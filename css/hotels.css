@@ -118,10 +118,6 @@ nav {
     cursor: default;
 }
 
-* {
-    transition: all 2s;
-}
-
 .message {
     position: absolute;
     top: 50vh;
@@ -129,7 +125,7 @@ nav {
     text-align: center;
     background-color: rgba(60, 179, 114, 0.8);
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
 .icons {
