@@ -90,3 +90,33 @@
   font-size: clamp(2.3rem, 4vw, 3.1rem);
   text-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
 }
+
+.travelHoldButton {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.travelHoldCircle {
+  width: 64px;
+  height: 64px;
+  border-radius: 999px;
+  border: 2px solid var(--color-accent);
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+}
+
+.travelHoldText {
+  color: var(--color-white);
+  font-size: 0.88rem;
+  text-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+}
