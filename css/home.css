@@ -575,3 +575,27 @@ main {
     height: 260px;
   }
 }
+
+@media (max-width: 600px) {
+  .world-header {
+    margin-bottom: 2.2rem;
+  }
+
+  .continent-gallery img {
+    height: 230px;
+  }
+
+  .testimonials-section {
+    padding: 5rem 0 4.5rem;
+    min-height: 70vh;
+  }
+
+  .testimonials-title {
+    margin-bottom: 2.4rem;
+  }
+
+  .testimonial-text {
+    font-size: 0.95rem;
+    padding-inline: 1rem;
+  }
+}
