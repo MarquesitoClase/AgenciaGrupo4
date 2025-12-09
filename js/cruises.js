@@ -279,3 +279,28 @@ document.addEventListener("DOMContentLoaded", () => {
       text: "Ruta: Lisboa · Madeira · Tenerife · Lanzarote. Ciudades atlánticas con miradores infinitos y clima suave todo el año.",
     },
   ];
+
+  const grid = document.getElementById("cruiseDestinationsGrid");
+
+  if (grid) {
+    cruiseData.forEach((cruise) => {
+      const li = document.createElement("li");
+      li.className = "cruiseDestinationCard";
+
+      li.innerHTML = `
+        <figure class="cruiseDestinationImageWrapper">
+          <img src="${cruise.image}" alt="${cruise.alt}" class="cruiseDestinationImage">
+        </figure>
+        <article class="cruiseDestinationBody">
+          <h2 class="cruiseDestinationTitle">${cruise.title}</h2>
+          <p class="cruiseDestinationMeta">${cruise.meta}</p>
+          <p class="cruiseDestinationText">
+            ${cruise.text}
+          </p>
+        </article>
+      `;
+
+      grid.appendChild(li);
+    });
+  }
+});
