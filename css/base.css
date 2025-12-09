@@ -47,3 +47,24 @@ p {
   font-size: 1rem;
   color: var(--color-text-soft);
 }
+.container {
+  width: min(1120px, 100% - 2rem);
+  margin-inline: auto;
+}
+
+.section {
+  padding: 4rem 0;
+}
+.site-header {
+  position: fixed;
+  inset-inline: 0;
+  top: 0;
+  z-index: 50;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
+  color: var(--color-white);
+  transition: background-color 0.3s ease;
+}
+
+.site-header.scrolled {
+  background: rgba(9, 20, 31, 0.95);
+}
