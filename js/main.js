@@ -42,3 +42,18 @@ document.addEventListener("DOMContentLoaded", () => {
       video.play().catch(() => {});
     });
   }
+
+   const shells = document.querySelectorAll(".continent-gallery-shell");
+
+  shells.forEach((shell) => {
+    const gallery = shell.querySelector(".continent-gallery");
+    const prevBtn = shell.querySelector(".gallery-arrow--prev");
+    const nextBtn = shell.querySelector(".gallery-arrow--next");
+
+    if (!gallery) return;
+
+    const images = Array.from(gallery.querySelectorAll("img"));
+    images.forEach((img) => {
+      img.draggable = false;
+      img.addEventListener("dragstart", (e) => e.preventDefault());
+    });
