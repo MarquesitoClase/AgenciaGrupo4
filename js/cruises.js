@@ -114,3 +114,30 @@ document.addEventListener("DOMContentLoaded", () => {
       holdStart();
     });
     holdButton.addEventListener("touchend", holdStop);
+
+    heroStage.addEventListener("mousemove", (event) => {
+      const rect = heroStage.getBoundingClientRect();
+      const x = event.clientX - rect.left;
+      const y = event.clientY - rect.top;
+
+      holdButton.style.left = `${x}px`;
+      holdButton.style.top = `${y}px`;
+
+      const mx = x / rect.width;
+      const my = y / rect.height;
+
+      const tiltX = (my - 0.5) * -8;
+      const tiltY = (mx - 0.5) * 8;
+
+      baseImage.style.transition = "transform 0.25s ease-out";
+      baseImage.style.transform = `scale(1.03) rotateX(${tiltX}deg) rotateY(${tiltY}deg)`;
+    });
+
+    heroStage.addEventListener("mouseleave", () => {
+      holdButton.style.left = "50%";
+      holdButton.style.top = "55%";
+
+      baseImage.style.transition = "transform 0.3s ease-out";
+      baseImage.style.transform = "scale(1.02) rotateX(0deg) rotateY(0deg)";
+    });
+  }
