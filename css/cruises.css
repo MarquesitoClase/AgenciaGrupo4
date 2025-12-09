@@ -278,3 +278,14 @@
 .nav-links a.is-active::after {
   width: 100%;
 }
+
+@media (max-width: 1200px) {
+  .cruiseDestinationsGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .cruiseDestinationsGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
