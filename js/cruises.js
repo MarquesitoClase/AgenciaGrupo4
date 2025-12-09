@@ -90,3 +90,27 @@ document.addEventListener("DOMContentLoaded", () => {
         startTransition(next);
       }
     });
+
+    function holdStart() {
+      if (isHolding) return;
+      isHolding = true;
+      const next = (currentIndex + 1) % keys.length;
+      startTransition(next);
+    }
+
+    function holdStop() {
+      isHolding = false;
+    }
+
+    holdButton.addEventListener("mousedown", (event) => {
+      event.preventDefault();
+      holdStart();
+    });
+    holdButton.addEventListener("mouseup", holdStop);
+    holdButton.addEventListener("mouseleave", holdStop);
+
+    holdButton.addEventListener("touchstart", (event) => {
+      event.preventDefault();
+      holdStart();
+    });
+    holdButton.addEventListener("touchend", holdStop);
