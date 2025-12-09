@@ -123,3 +123,75 @@ p {
 .nav-links a.is-active::after {
   width: 100%;
 }
+.site-footer {
+  background: radial-gradient(
+    circle at top,
+    #0f5c63 0,
+    #0b3f45 55%,
+    #050c14 90%
+  );
+  color: var(--color-white);
+  padding: 1.8rem 0 1.4rem;
+  margin-top: 3rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.8fr 1.1fr 0.9fr 0.9fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.footerLogo {
+  height: 56px;
+  margin-bottom: 0.7rem;
+  display: block;
+}
+
+.footer-brand p {
+  max-width: 100%;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.footerTitle {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  margin-bottom: 0.25rem;
+  color: var(--color-white);
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+  color: var(--color-accent);
+}
+
+.footer-bottom {
+  margin-top: 0.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 0.7rem;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+}
