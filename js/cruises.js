@@ -70,3 +70,23 @@ document.addEventListener("DOMContentLoaded", () => {
       nextIndex = next;
       activeImage.classList.add("is-animating");
     }
+
+    activeImage.addEventListener("animationend", (event) => {
+      if (event.animationName !== "heroPortal") return;
+
+      activeImage.style.display = "none";
+      activeImage.style.opacity = "0";
+      activeImage.classList.remove("is-animating");
+
+      if (nextIndex !== null) {
+        currentIndex = nextIndex;
+        nextIndex = null;
+      }
+
+      isTransitioning = false;
+
+      if (isHolding) {
+        const next = (currentIndex + 1) % keys.length;
+        startTransition(next);
+      }
+    });
