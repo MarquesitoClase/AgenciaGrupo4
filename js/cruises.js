@@ -47,3 +47,26 @@ document.addEventListener("DOMContentLoaded", () => {
       tanger: "../media/images/tanger.jpg",
       caribe: "../media/images/caribe.jpg",
     };
+
+    let currentIndex = 0;
+    let isHolding = false;
+    let isTransitioning = false;
+    let nextIndex = null;
+
+    function startTransition(next) {
+      if (isTransitioning) return;
+      isTransitioning = true;
+
+      activeImage.classList.remove("is-animating");
+      activeImage.style.display = "block";
+      activeImage.style.opacity = "1";
+      activeImage.src = baseImage.src;
+      activeImage.alt = baseImage.alt;
+
+      baseImage.src = images[keys[next]];
+
+      void activeImage.offsetWidth;
+
+      nextIndex = next;
+      activeImage.classList.add("is-animating");
+    }
