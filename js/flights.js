@@ -198,7 +198,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             key: "lisboa-rio",
-            image: "../media/images/america25.jpg",
+            image: "../media/images/portugal.avif",
             alt: "Costa rocosa con mar azul profundo",
             from: "Lisboa (LIS)",
             to: "Río de Janeiro (GIG)",
