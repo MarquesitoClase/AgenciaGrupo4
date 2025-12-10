@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cruceros | Vértice Travel</title>
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/cruises.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="navbar">
+        <div class="navbarBrand">
+          <div class="nav-logo">
+            <img
+              src="../media/images/logoVerticeTravel.png"
+              alt="Vértice Travel"
+              class="nav-logo-image"
+            />
+          </div>
+        </div>
+
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="cruises.html" class="is-active">Cruceros</a></li>
+            <li><a href="#">Viajes</a></li>
+            <li><a href="#">Vuelos</a></li>
+            <li><a href="#">Hoteles</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="heroCruises">
+        <figure class="heroCruisesStage">
+          <img
+            src="../media/images/cerdena.jpg"
+            alt="Cerdeña"
+            class="heroCruisesImage heroBase"
+          />
+
+          <img
+            src="../media/images/cerdena.jpg"
+            alt="Cerdeña"
+            class="heroCruisesImage heroActive"
+          />
+
+          <figcaption class="heroCruisesCaption">
+            <h1 class="heroCruisesTitle">¿Cuál es el crucero de tus sueños?</h1>
+          </figcaption>
+
+          <button class="travelHoldButton" id="travelHoldButton">
+            <span class="travelHoldCircle"></span>
+            <span class="travelHoldText">Mantén pulsado para viajar</span>
+          </button>
+        </figure>
+      </section>
+
+      <section class="cruiseDestinationsSection">
+        <div class="cruiseDestinationsContainer">
+          <ul class="cruiseDestinationsGrid" id="cruiseDestinationsGrid"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img
+            src="../media/images/logoVerticeTravelDorado.png"
+            alt="Vértice Travel"
+            class="footerLogo"
+          />
+          <p>
+            Viajes y experiencias diseñadas al detalle desde España hacia los
+            destinos más extraordinarios del planeta: cruceros, grandes vuelos y
+            escapadas únicas.
+          </p>
+        </div>
+
+        <div class="footerColumn">
+          <h3 class="footerTitle">Contacto</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="mailto:hola@verticetravel.com">hola@verticetravel.com</a>
+            </li>
+            <li><a href="tel:+34900000123">+34 900 000 123</a></li>
+          </ul>
+        </div>
+
+        <div class="footerColumn">
+          <h3 class="footerTitle">Vértice Travel</h3>
+          <ul class="footer-links">
+            <li><a href="aboutUs.html">Sobre nosotros</a></li>
+            <li><a href="#equipo">Nuestro equipo</a></li>
+          </ul>
+        </div>
+
+        <div class="footerColumn">
+          <h3 class="footerTitle">Síguenos</h3>
+          <ul class="footer-links">
+            <li>
+              <a
+                href="https://x.com/VerticeTravel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                X
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/VerticeTravel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2025 Vértice Travel. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="../js/cruises.js"></script>
+  </body>
+</html>

@@ -1,0 +1,621 @@
+{
+    "hotels": [
+        {
+            "id": 0,
+            "name": "Melia Alicante",
+            "country": "España",
+            "city": "Alicante",
+            "category": "⭐⭐⭐⭐",
+            "rating": "8.9",
+            "userRating": "Excelente",
+            "countRating": "6266",
+            "locationDescription": "a 100 metros de la playa.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "frente al mar",
+                        "spa",
+                        "piscina",
+                        "salorium"
+                    ],
+                    "checked": [
+                        "aparcamiento gratuito"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "850 €",
+                "offer": "673 €",
+                "message": "precio total por una noche"
+            },
+            "image": "hotel0.png"
+        },
+        {
+            "id": 1,
+            "name": "Hotel Arts Barcelona",
+            "country": "España",
+            "city": "Barcelona",
+            "category": "⭐⭐⭐⭐⭐",
+            "rating": "8.8",
+            "userRating": "Excelente",
+            "countRating": "12034",
+            "locationDescription": "En la playa de la Barceloneta, frente al Puerto Olímpico.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "spa",
+                        "piscina al aire libre",
+                        "gimnasio",
+                        "restaurante con estrella"
+                    ],
+                    "checked": [
+                        "frente al mar",
+                        "wifi"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "450 €",
+                "offer": "365 €",
+                "message": "precio orientativo por noche (puede variar según temporada)"
+            },
+            "image": "hotel1.png"
+        },
+        {
+            "id": 2,
+            "name": "W Barcelona",
+            "country": "España",
+            "city": "Barcelona",
+            "category": "⭐⭐⭐⭐⭐",
+            "rating": "8.4",
+            "userRating": "Muy bueno",
+            "countRating": "18425",
+            "locationDescription": "Edificio emblemático en la playa de la Barceloneta, con vistas al Mediterráneo.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "club nocturno",
+                        "restaurante en la azotea",
+                        "spa"
+                    ],
+                    "checked": [
+                        "frente al mar",
+                        "piscina"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "380 €",
+                "offer": "299 €",
+                "message": "precio orientativo por noche"
+            },
+            "image": "hotel2.png"
+        },
+        {
+            "id": 3,
+            "name": "Gran Hotel Miramar GL",
+            "country": "España",
+            "city": "Málaga",
+            "category": "⭐⭐⭐⭐⭐",
+            "rating": "9.1",
+            "userRating": "Excelente",
+            "countRating": "11000",
+            "locationDescription": "Frente al Paseo de la Malagueta, junto a la playa y cerca del centro histórico.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "salón de eventos",
+                        "spa",
+                        "gimnasio"
+                    ],
+                    "checked": [
+                        "aparcamiento",
+                        "piscina"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "320 €",
+                "offer": "265 €",
+                "message": "precio orientativo por noche"
+            },
+            "image": "hotel3.png"
+        },
+        {
+            "id": 4,
+            "name": "Hotel Alfonso XIII, a Luxury Collection Hotel",
+            "country": "España",
+            "city": "Sevilla",
+            "category": "⭐⭐⭐⭐⭐",
+            "rating": "9.2",
+            "userRating": "Excelente",
+            "countRating": "7800",
+            "locationDescription": "Junto a la Universidad y cerca del Real Alcázar y la Catedral de Sevilla.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "restaurante histórico",
+                        "salones para eventos",
+                        "spa pequeño"
+                    ],
+                    "checked": [
+                        "wifi",
+                        "cercano a monumentos"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "420 €",
+                "offer": "349 €",
+                "message": "precio orientativo por noche"
+            },
+            "image": "hotel4.png"
+        },
+        {
+            "id": 5,
+            "name": "Parador de Santiago - Hostal dos Reis Católicos",
+            "country": "España",
+            "city": "Santiago de Compostela",
+            "category": "⭐⭐⭐⭐",
+            "rating": "9.0",
+            "userRating": "Excelente",
+            "countRating": "9500",
+            "locationDescription": "Ubicado en la Plaza del Obradoiro, contiguo a la Catedral de Santiago.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "edificio histórico",
+                        "servicios religiosos cercanos",
+                        "restaurante tradicional"
+                    ],
+                    "checked": [
+                        "ubicación privilegiada",
+                        "parking cercano"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "260 €",
+                "offer": "215 €",
+                "message": "precio orientativo por noche"
+            },
+            "image": "hotel5.png"
+        },
+        {
+            "id": 6,
+            "name": "B&B HOTEL Santiago Milladoiro",
+            "country": "España",
+            "city": "O Milladoiro",
+            "category": "⭐⭐",
+            "rating": "8.4",
+            "userRating": "Muy bueno",
+            "countRating": "310",
+            "locationDescription": "A pocos kilómetros de Santiago de Compostela, entorno tranquilo.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "desayuno buffet",
+                        "aire acondicionado",
+                        "pet-friendly"
+                    ],
+                    "checked": [
+                        "wifi gratis",
+                        "parking cercano"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "70 €",
+                "offer": "55 €",
+                "message": "precio de una noche"
+            },
+            "image": "hotel6.png"
+        },
+        {
+            "id": 7,
+            "name": "Hotel Os Olivos",
+            "country": "España",
+            "city": "Lugo",
+            "category": "⭐⭐⭐",
+            "rating": "9.1",
+            "userRating": "Excelente",
+            "countRating": "500",
+            "locationDescription": "Zona céntrica de Lugo, con buena conexión a servicios y transportes.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "desayuno incluido",
+                        "habitación triple disponible"
+                    ],
+                    "checked": [
+                        "parking cercano",
+                        "wifi"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "65 €",
+                "offer": "50 €",
+                "message": "precio de una habitacion"
+            },
+            "image": "hotel7.png"
+        },
+        {
+            "id": 8,
+            "name": "Parador de Villalba",
+            "country": "España",
+            "city": "Vilalba, Lugo",
+            "category": "⭐⭐⭐⭐",
+            "rating": "8.7",
+            "userRating": "Muy bueno",
+            "countRating": "900",
+            "locationDescription": "En un entorno histórico, torre antigua restaurada con acceso a naturaleza.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "piscina",
+                        "restaurante",
+                        "jardines"
+                    ],
+                    "checked": [
+                        "parking",
+                        "restaurante en edificio histórico"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "120 €",
+                "offer": "99 €",
+                "message": "precio orientativo por noche"
+            },
+            "image": "hotel8.png"
+        },
+        {
+            "id": 9,
+            "name": "Hotel Helios Benidorm",
+            "country": "España",
+            "city": "Benidorm, Alicante",
+            "category": "⭐⭐⭐",
+            "rating": "8.2",
+            "userRating": "Bueno",
+            "countRating": "3500",
+            "locationDescription": "Ubicado en zona céntrica de Benidorm, a pocos minutos de la playa de Levante.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "terraza",
+                        "aire acondicionado"
+                    ],
+                    "checked": [
+                        "cercano a la playa",
+                        "acceso fácil a transporte"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "95 €",
+                "offer": "78 €",
+                "message": "precio de una noche"
+            },
+            "image": "hotel9.png"
+        },
+        {
+            "id": 10,
+            "name": "Hotel en Alicante zona céntrica",
+            "country": "España",
+            "city": "Alicante",
+            "category": "⭐⭐",
+            "rating": "7.5",
+            "userRating": "Bien",
+            "countRating": "600",
+            "locationDescription": "Zona céntrica / urbana, cerca de comercios y transporte público.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "aire acondicionado"
+                    ],
+                    "checked": [
+                        "wifi",
+                        "buena relación calidad-precio"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "60 €",
+                "offer": "50 €",
+                "message": "precio orientativo por noche en temporada baja"
+            },
+            "image": "hotel10.png"
+        },
+        {
+            "id": 11,
+            "name": "ibis Paris Montmartre Sacré-Cœur",
+            "country": "Francia",
+            "city": "París",
+            "category": "⭐⭐⭐",
+            "rating": "8.0",
+            "userRating": "Muy bien",
+            "countRating": "1000+",
+            "locationDescription": "en Montmartre, a pocos minutos del Moulin Rouge y Sacré-Cœur.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "desayuno buffet",
+                        "bar",
+                        "aire acondicionado"
+                    ],
+                    "checked": [
+                        "buena conexión transporte público"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "120 €",
+                "offer": "89 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel11.png"
+        },
+        {
+            "id": 12,
+            "name": "Hotel Santa Maria",
+            "country": "Italia",
+            "city": "Roma",
+            "category": "⭐⭐⭐",
+            "rating": "9.2",
+            "userRating": "Excelente",
+            "countRating": "3000+",
+            "locationDescription": "en el barrio de Trastevere, cerca de la Piazza Santa Maria.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "terraza",
+                        "servicio de lavandería",
+                        "wifi gratis"
+                    ],
+                    "checked": [
+                        "jardín interior"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "180 €",
+                "offer": "135 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel12.png"
+        },
+        {
+            "id": 13,
+            "name": "Hotel Antiche Figure",
+            "country": "Italia",
+            "city": "Venecia",
+            "category": "⭐⭐⭐",
+            "rating": "8.8",
+            "userRating": "Muy bueno",
+            "countRating": "4000+",
+            "locationDescription": "a orillas del Gran Canal, cerca de la estación Santa Lucia.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "vistas al canal",
+                        "recepción 24h",
+                        "desayuno"
+                    ],
+                    "checked": [
+                        "ubicación céntrica"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "220 €",
+                "offer": "170 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel13.png"
+        },
+        {
+            "id": 14,
+            "name": "Hotel Not Hotel",
+            "country": "Países Bajos",
+            "city": "Ámsterdam",
+            "category": "⭐⭐⭐",
+            "rating": "7.6",
+            "userRating": "Bien",
+            "countRating": "2000+",
+            "locationDescription": "diseño boutique, en un barrio céntrico con fácil acceso al transporte.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "diseño creativo",
+                        "bares cercanos",
+                        "sin ascensor (edificio bajo)"
+                    ],
+                    "checked": [
+                        "ambiente original"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "150 €",
+                "offer": "105 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel14.png"
+        },
+        {
+            "id": 15,
+            "name": "Hotel Borges Chiado",
+            "country": "Portugal",
+            "city": "Lisboa",
+            "category": "⭐⭐⭐",
+            "rating": "7.8",
+            "userRating": "Bueno",
+            "countRating": "2500+",
+            "locationDescription": "en el barrio de Chiado, muy cerca de Barrio Alto y Baixa.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "restaurante",
+                        "terraza",
+                        "habitaciones espaciosas"
+                    ],
+                    "checked": [
+                        "ubicación excelente"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "140 €",
+                "offer": "99 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel15.png"
+        },
+        {
+            "id": 16,
+            "name": "Marriott Mena House, Cairo",
+            "country": "Egipto",
+            "city": "El Cairo",
+            "category": "⭐⭐⭐⭐⭐",
+            "rating": "8.7",
+            "userRating": "Muy bien",
+            "countRating": "5000+",
+            "locationDescription": "resort clásico con vistas a las pirámides de Giza, situado a los pies de las pirámides.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "spa",
+                        "piscina al aire libre",
+                        "varios restaurantes"
+                    ],
+                    "checked": [
+                        "vistas a las pirámides"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "420 €",
+                "offer": "345 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel16.png"
+        },
+        {
+            "id": 17,
+            "name": "The Liberty, a Luxury Collection Hotel",
+            "country": "Estados Unidos",
+            "city": "Boston",
+            "category": "⭐⭐⭐⭐⭐",
+            "rating": "9.0",
+            "userRating": "Excelente",
+            "countRating": "4200+",
+            "locationDescription": "hotel histórico reconvertido desde la antigua cárcel Charles Street, en Beacon Hill, cerca de Boston Common.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "restaurantes y bares",
+                        "gimnasio",
+                        "salas de reuniones"
+                    ],
+                    "checked": [
+                        "ubicación céntrica"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "550 €",
+                "offer": "420 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel17.png"
+        },
+        {
+            "id": 18,
+            "name": "Alvear Palace Hotel",
+            "country": "Argentina",
+            "city": "Buenos Aires",
+            "category": "⭐⭐⭐⭐⭐",
+            "rating": "9.4",
+            "userRating": "Excelente",
+            "countRating": "8000+",
+            "locationDescription": "palacete de lujo en Recoleta, a pasos de avenidas y museos emblemáticos.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "restaurante de lujo",
+                        "spa",
+                        "servicio de mayordomo"
+                    ],
+                    "checked": [
+                        "estilo clásico y elegante"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "480 €",
+                "offer": "395 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel18.png"
+        },
+        {
+            "id": 19,
+            "name": "Hotel Niwa Tokyo",
+            "country": "Japón",
+            "city": "Tokio",
+            "category": "⭐⭐⭐⭐",
+            "rating": "8.6",
+            "userRating": "Muy bien",
+            "countRating": "2200+",
+            "locationDescription": "hotel de estilo moderno-japonés con jardines interiores, cerca de la zona de Suidobashi / Tokyo Dome.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "restaurante japonés",
+                        "salones tranquilos",
+                        "wifi gratis"
+                    ],
+                    "checked": [
+                        "jardines interiores"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "200 €",
+                "offer": "155 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel19.png"
+        },
+        {
+            "id": 20,
+            "name": "Baur au Lac",
+            "country": "Suiza",
+            "city": "Zúrich",
+            "category": "⭐⭐⭐⭐⭐",
+            "rating": "9.3",
+            "userRating": "Excelente",
+            "countRating": "3000+",
+            "locationDescription": "hotel clásico de lujo con vistas al lago de Zúrich y a los Alpes, ubicado en un parque privado.",
+            "tags": [
+                {
+                    "unchecked": [
+                        "restaurante gourmet",
+                        "servicio de conserjería 24h",
+                        "salones para eventos"
+                    ],
+                    "checked": [
+                        "vistas al lago"
+                    ]
+                }
+            ],
+            "price": {
+                "original": "760 €",
+                "offer": "610 €",
+                "message": "precio aproximado por noche"
+            },
+            "image": "hotel20.png"
+        }
+    ]
+}
