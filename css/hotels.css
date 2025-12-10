@@ -35,7 +35,7 @@
     padding: 15px;
     box-shadow: 10px 10px 5px lightgray;
     border-width: 0px 0px 10px 0px;
-    border-color: cadetblue;
+    border-color: --color-bg-dark;
     border-style: solid;
     border-radius: 0px 0px 5px 5px;
     gap: 20px;
@@ -118,18 +118,18 @@ nav {
     padding: 5px;
     margin: 5px;
     border: solid 1px lightgray;
-    border-bottom: solid 3px blue;
+    border-bottom: solid 3px var(--color-primary);
     cursor: pointer;
 }
 
 .navElement.main {
-    background-color: rgba(255, 24, 24, 0.4);
+    background-color: rgba(186, 85, 211, 0.5);
     cursor: default;
 }
 
 .navElement.text {
     font-size: 9pt;
-    background-color: rgba(255, 24, 24, 0.4);
+    background-color: rgba(186, 85, 211, 0.5);
     cursor: default;
 }
 
