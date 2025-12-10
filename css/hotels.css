@@ -4,11 +4,15 @@
     padding: 0px;
 }
 
+.imageNavMain {
+    width: 100%;
+}
+
 #hotelsMain {
     text-align: center;
     width: 70%;
     margin: auto auto;
-    margin-top: 20vh;
+    margin-top: 5vh;
 }
 
 #hotelCards {
@@ -130,7 +134,7 @@ nav {
 }
 
 .message {
-    position: absolute;
+    position: fixed;
     top: 50vh;
     left: 40vw;
     text-align: center;
