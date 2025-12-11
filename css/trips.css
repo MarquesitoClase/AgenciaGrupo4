@@ -203,3 +203,42 @@
   border-radius: inherit;
   transition: transform 0.45s ease, filter 0.45s ease;
 }
+
+.trip-card:hover .trip-card-image,
+.tripCard:hover .tripCardImage,
+.trip-card:hover img,
+.tripCard:hover img {
+  transform: scale(1.08);
+  filter: saturate(1.08) contrast(1.03);
+}
+.trip-card-body,
+.tripCardBody,
+.trip-card > article,
+.tripCard > article,
+.trip-card > div:not(:first-child),
+.tripCard > div:not(:first-child) {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.1rem 1.4rem 1.3rem;
+  max-height: 230px;
+  overflow: hidden;
+}
+.trip-card-title {
+  font-size: 1.05rem;
+  margin-bottom: 0.35rem;
+}
+
+.trip-card-location,
+.trip-card-meta {
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--color-primary);
+  margin-bottom: 0.25rem;
+}
+
+.trip-card-location span + span::before {
+  content: " · ";
+}
