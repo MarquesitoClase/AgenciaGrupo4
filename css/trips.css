@@ -79,3 +79,23 @@
   text-transform: uppercase;
   color: var(--color-primary);
 }
+.trips-collection-section {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.trips-collection-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.trips-collection-header h2 {
+  margin-bottom: 0.4rem;
+}
+
+.trips-collection-header p {
+  max-width: 38rem;
+}
