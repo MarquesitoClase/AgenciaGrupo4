@@ -298,3 +298,22 @@
   flex-wrap: wrap;
   gap: 0.8rem;
 }
+@media (max-width: 1024px) {
+  .trips-intro-layout {
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  }
+
+  .trips-collection-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .trip-filters {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 860px) {
+  .trips-intro-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
