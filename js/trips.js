@@ -134,3 +134,30 @@ document.addEventListener("DOMContentLoaded", () => {
       priceFrom: "990 €",
       tags: ["Cultura", "Desierto", "Aventura suave"],
     },
+    {
+      id: "norte-portugal",
+      type: ["familia", "pareja"],
+      title: "Norte de Portugal con coche",
+      image: "../media/images/europa2.jpg",
+      alt: "Lago alpino rodeado de bosque",
+      location: "Oporto · Valle del Duero · Braga",
+      duration: "6 días · 5 noches",
+      description:
+        "Un viaje cercano con buena gastronomía, pueblos con historia y paisajes de viñedos junto al río Duero.",
+      priceFrom: "650 €",
+      tags: ["Cercano", "Gastronomía", "En coche"],
+    },
+    {
+      id: "bali-completo",
+      type: ["pareja", "larga-distancia"],
+      title: "Bali completo a medida",
+      image: "../media/images/asia7.jpg",
+      alt: "Lago turquesa entre montañas en Asia",
+      location: "Ubud · Uluwatu · Nusa Penida",
+      duration: "11 días · 9 noches",
+      description:
+        "Templos, arrozales, playas y hoteles con encanto. Un viaje muy flexible que se adapta a tu ritmo.",
+      priceFrom: "2.150 €",
+      tags: ["Luna de miel", "Bienestar", "Naturaleza"],
+    },
+  ];
