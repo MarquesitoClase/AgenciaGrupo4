@@ -2,8 +2,8 @@
 <h2>Equipo:</h2>
     <ul>
         <li>Sergio Fernandez</li>
-        <li>David Navarro Oliver</li>
-        <li>Juan Luis Márquez Canedo</li>
+        <li>David Navarro</li>
+        <li>Juan Luis Márquez</li>
         <li>María Perez</li>
         <li>Yves Andrés</li>
     </ul>
