@@ -56,7 +56,7 @@ p {
   padding: 4rem 0;
 }
 .site-header {
-  position: sticky;
+  position: fixed;
   inset-inline: 0;
   top: 0;
   z-index: 50;
