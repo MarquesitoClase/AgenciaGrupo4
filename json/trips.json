@@ -24,3 +24,27 @@
       "priceFrom": "3.200 €",
       "note": "Traslados privados y hoteles adaptados a familias con peques."
     },
+    {
+      "id": 3,
+      "title": "Islandia a tu ritmo",
+      "subtitle": "Vuelta parcial a la isla combinando aguas termales, cascadas y fiordos.",
+      "region": "Europa",
+      "duration": "10 días",
+      "type": ["aventura", "pareja"],
+      "mood": ["Paisaje extremo", "Termal", "Roadtrip"],
+      "image": "../media/images/europa6.jpg",
+      "priceFrom": "2.850 €",
+      "note": "Disponible todo el año, con variantes invierno/verano."
+    },
+    {
+      "id": 4,
+      "title": "Japón clásico y moderno",
+      "subtitle": "Tokio, Kioto y alrededores con pases de tren y experiencias seleccionadas.",
+      "region": "Asia",
+      "duration": "13 días",
+      "type": ["pareja", "larga-distancia"],
+      "mood": ["Cultura", "Gastronomía", "Ciudades"],
+      "image": "../media/images/asia4.jpg",
+      "priceFrom": "3.900 €",
+      "note": "Posibilidad de añadir extensión a una isla tropical cercana."
+    },
