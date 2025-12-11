@@ -131,3 +131,40 @@
   border-color: var(--color-primary);
   box-shadow: 0 10px 26px rgba(15, 92, 99, 0.35);
 }
+.trip-grid {
+  list-style: none;
+  display: grid;
+  gap: 2.2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+.trip-card,
+.tripCard {
+  background: #fdf1dd;
+  border-radius: 1.6rem;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(230, 179, 92, 0.4);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 540px;
+  position: relative;
+  isolation: isolate;
+  transition: transform 0.22s ease, box-shadow 0.22s ease,
+    border-color 0.22s ease, background-color 0.22s ease;
+}
+
+.trip-card::before,
+.tripCard::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top,
+    rgba(255, 255, 255, 0.6),
+    transparent 55%
+  );
+  opacity: 0;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
