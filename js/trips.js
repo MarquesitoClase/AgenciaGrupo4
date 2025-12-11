@@ -188,3 +188,24 @@ document.addEventListener("DOMContentLoaded", () => {
               ${trip.description}
             </p>
           </div>
+
+          <div class="trip-card-tags">
+            ${trip.tags
+              .map(
+                (tag) => `<span class="trip-card-tag">${tag}</span>`
+              )
+              .join("")}
+          </div>
+
+          <div class="trip-card-footer">
+            <span class="trip-card-footer-label">Desde</span>
+            <span class="trip-card-footer-price">${trip.priceFrom}</span>
+          </div>
+        </div>
+      </li>
+    `
+      )
+      .join("");
+
+    tripGrid.innerHTML = html;
+  }
