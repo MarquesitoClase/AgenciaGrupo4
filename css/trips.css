@@ -269,3 +269,32 @@
   color: var(--color-text-soft);
   max-width: 46rem;
 }
+.trips-cta-section {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.trips-cta-box {
+  background: radial-gradient(circle at top left, #0f5c63 0, #09141f 60%);
+  border-radius: 1.6rem;
+  padding: 2.2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  color: #ffffff;
+}
+
+.trips-cta-text h2 {
+  margin-bottom: 0.6rem;
+}
+
+.trips-cta-text p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.trips-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
