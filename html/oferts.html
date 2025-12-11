@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vertice Travel</title>
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/oferts.css">
+    <script src="../js/oferts.js" defer></script>
+    <!-- defer crga el html. antes del js siempre-->
+     <script src="../js/header-footer.js"></script>
 </head>
 <body>
-    <header class="site-header">
+  <header class="site-header">
         <div class="navbar">
             <div class="navbarBrand">
                 <div class="nav-logo">
@@ -28,7 +32,36 @@
             </nav>
         </div>
     </header>
-    <main></main>
+  <navBar></navBar>
+    <header class="site-header">
+      <div class="navbar">
+        <div class="navbarBrand">
+          <div class="nav-logo">
+            <img
+              src="../media/images/logoVerticeTravel.png"
+              alt="Vértice Travel"
+              class="nav-logo-image"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <table id="tablaOfertas">
+  <thead>
+    <tr>
+      <th>Destino</th>
+      <th>Precio persona (€)</th>
+      <th>Fecha inicio</th>
+      <th>Fecha fin</th>
+    </tr>
+
+  </thead>
+
+  <tbody></tbody>
+
+      </table>
+    </main>
   <footer class="site-footer">
       <div class="container footer-grid">
         <div class="footer-brand">

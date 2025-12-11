@@ -1,31 +1,30 @@
-<<<<<<< HEAD
-<header class="site-header">
-  <div class="navbar">
-    <div class="navbarBrand">
-      <a href="index.html" class="nav-logo">
-        <img
-          src="../media/images/logoVerticeTravel.png"
-          alt="Vértice Travel"
-          class="nav-logo-image"
-        />
-      </a>
-    </div>
-
-    <button class="nav-toggle" aria-label="Abrir menú">
-      <span></span><span></span><span></span>
-    </button>
-
-    <nav class="nav">
-      <ul class="nav-links">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="cruises.html">Cruceros</a></li>
-        <li><a href="trips.html">Viajes</a></li>
-        <li><a href="flights.html">Vuelos</a></li>
-        <li><a href="hotels.html">Hoteles</a></li>
-        <li><a href="#">Ofertas</a></li>
-        <li><a href="#">Contacto</a></li>
-        <li><a href="aboutUs.html">Sobre nosotros</a></li>
-      </ul>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vertice Travel</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+    <header>
+      <nav>
+        <div class="navElement text" title="ordenar por..."><i>Filtros:</i></div>
+        <div class="navElement main"><img class="icons" src="../media/images/hotels/iconBarGraph.svg"
+                title="orden ascendente"></div>
+        <div class="navElement" onclick="jsonSortingCards('precio')"><img class="icons"
+                src="../media/images/hotels/iconPrice.svg" title="precio"></div>
+        <div class="navElement" onclick="jsonSortingCards('ciudad')"><img class="icons"
+                src="../media/images/hotels/iconCharacter.svg" title="ciudad"></div>
+        <div class="navElement" onclick="jsonSortingCards('categoria')"><img class="icons"
+                src="../media/images/hotels/iconRating.svg" title="categoria"></div>
+        <div class="navElement" onclick="jsonSortingCards('puntuacion')"><img class="icons"
+                src="../media/images/hotels/iconNumbers.svg" title="puntuacion"></div>
+        <div class="navElement" onclick="jsonSortingCards('comentarios')"><img class="icons"
+                src="../media/images/hotels/iconComentaries.svg" title="comentarios"></div>
     </nav>
-  </div>
-</header>
+    </header>
+    <main></main>
+  <footer></footer>
+</body>
+</html>

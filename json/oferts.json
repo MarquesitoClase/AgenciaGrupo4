@@ -1,0 +1,59 @@
+{
+  "ofertas": [
+    {
+      "id": 1,
+      "titulo": "Escapada a París",
+      "descripcion": "3 noches en hotel céntrico con desayuno incluido.",
+      "destino": "París, Francia",
+      "precio": 349.99,
+      "moneda": "EUR",
+      "begin_date": "2025-03-01",
+      "end_date": "2025-03-31",
+      "incluye_vuelo": true
+    },
+    {
+      "id": 2,
+      "titulo": "Aventura en Costa Rica",
+      "descripcion": "7 días con actividades de ecoturismo y alojamiento en lodge.",
+      "destino": "Monteverde, Costa Rica",
+      "precio": 899.50,
+      "moneda": "EUR",
+      "begin_date": "2025-04-15",
+      "end_date": "2025-05-15",
+      "incluye_vuelo": false
+    },
+    {
+      "id": 3,
+      "titulo": "Crucero por el Mediterráneo",
+      "descripcion": "Crucero de 5 días con paradas en Italia, Grecia y Malta.",
+      "destino": "Mediterráneo",
+      "precio": 599.00,
+      "moneda": "EUR",
+      "begin_date": "2025-06-01",
+      "end_date": "2025-08-31",
+      "incluye_vuelo": true
+    },
+    {
+      "id": 4,
+      "titulo": "Ruta por Japón",
+      "descripcion": "10 días visitando Tokio, Kioto y Osaka con guía en español.",
+      "destino": "Tokio, Japón",
+      "precio": 1850.00,
+      "moneda": "EUR",
+      "begin_date": "2025-09-10",
+      "end_date": "2025-10-10",
+      "incluye_vuelo": true
+    },
+    {
+      "id": 5,
+      "titulo": "Relax en Tenerife",
+      "descripcion": "5 noches en hotel spa frente al mar.",
+      "destino": "Tenerife, España",
+      "precio": 420.00,
+      "moneda": "EUR",
+      "begin_date": "2025-02-01",
+      "end_date": "2025-02-28",
+      "incluye_vuelo": false
+    }
+  ]
+}
