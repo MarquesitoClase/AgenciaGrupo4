@@ -317,3 +317,38 @@
   .trips-intro-layout {
     grid-template-columns: minmax(0, 1fr);
   }
+
+  .trips-intro-aside {
+    order: -1;
+  }
+
+  .trips-cta-box {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 1.6rem;
+  }
+  .trips-intro {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .trips-collection-section {
+    padding-top: 0.5rem;
+  }
+
+  .trip-grid {
+    gap: 1.8rem;
+  }
+
+  .trip-card,
+  .tripCard {
+    height: 540px;
+  }
+
+  .trips-intro {
+    padding-top: 5.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
