@@ -96,3 +96,17 @@
       "priceFrom": "2.250 €",
       "note": "Posibilidad de añadir noches en cabañas de madera frente al fiordo."
     },
+    {
+      "id": 9,
+      "title": "Islas griegas sin prisas",
+      "subtitle": "Dos o tres islas combinadas con ferries y hoteles con vistas al Egeo.",
+      "region": "Europa",
+      "duration": "9 días",
+      "type": ["pareja"],
+      "mood": ["Atardeceres", "Playas", "Vida lenta"],
+      "image": "../media/images/grecia.jpg",
+      "priceFrom": "1.650 €",
+      "note": "Muy flexible en número de noches y orden de islas."
+    }
+  ]
+}
