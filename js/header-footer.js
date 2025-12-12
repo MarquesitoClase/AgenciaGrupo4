@@ -1,6 +1,6 @@
 class HeaderComponent extends HTMLElement {
   connectedCallback() {
-    fetch("../html/header.html")
+    fetch("header.html")
       .then((res) => res.text())
       .then((html) => {
         this.innerHTML = html;
@@ -18,7 +18,7 @@ class HeaderComponent extends HTMLElement {
 customElements.define("my-header", HeaderComponent);
 class FooterComponent extends HTMLElement {
   connectedCallback() {
-    fetch("../html/footer.html")
+    fetch("footer.html")
       .then((res) => res.text())
       .then((html) => (this.innerHTML = html));
   }
