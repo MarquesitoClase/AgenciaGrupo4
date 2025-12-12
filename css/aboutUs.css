@@ -1,7 +1,4 @@
-/* -------- AJUSTES ESPECÍFICOS DEL HEADER EN ABOUT -------- */
-
 .site-header--about .navbar {
-  /* el header ocupa todo el ancho, logo a la izquierda, menú a la derecha */
   width: 100%;
   max-width: 100%;
   margin-inline: 0;
@@ -18,16 +15,10 @@
 .site-header--about nav {
   margin-left: auto;
 }
-
-/* -------- LAYOUT GENERAL -------- */
-
 .about-page {
   background-color: var(--color-bg-page);
-  padding-top: 0; /* el hero ya compensa el header fijo */
+  padding-top: 0;
 }
-
-/* -------- HERO CON FOTO DE FONDO -------- */
-
 .about-hero {
   position: relative;
   min-height: 80vh;
@@ -35,8 +26,7 @@
   align-items: center;
   color: #ffffff;
 
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to right,
       rgba(5, 12, 20, 0.85),
       rgba(5, 12, 20, 0.55),
@@ -82,9 +72,6 @@
   flex-wrap: wrap;
   gap: 0.8rem;
 }
-
-/* -------- FAST FACTS -------- */
-
 .about-facts {
   background-color: #f0ebe3;
   border-top: 1px solid rgba(0, 0, 0, 0.04);
@@ -116,9 +103,6 @@
   font-size: 0.85rem;
   color: var(--color-text-soft);
 }
-
-/* -------- NUESTRA HISTORIA -------- */
-
 .about-story-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr);
@@ -144,15 +128,10 @@
 .about-story-imageWrapper {
   width: 100%;
   max-width: 480px;
-  aspect-ratio: 4 / 3; /* mejor para la nueva imagen apaisada */
+  aspect-ratio: 4 / 3;
   border-radius: 1.4rem;
   overflow: hidden;
-  background: linear-gradient(
-    145deg,
-    #0f5c63 0%,
-    #e6b35c 60%,
-    #f6f4f0 100%
-  );
+  background: linear-gradient(145deg, #0f5c63 0%, #e6b35c 60%, #f6f4f0 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,9 +153,6 @@
   background-color: var(--color-primary-soft);
   color: var(--color-text-main);
 }
-
-/* -------- PILARES -------- */
-
 .about-pillars {
   background-color: #fbfaf7;
 }
@@ -192,9 +168,6 @@
 .about-pillars .card-body h3 {
   margin: 0.35rem 0 0.4rem;
 }
-
-/* -------- EQUIPO -------- */
-
 .about-team-header {
   max-width: 560px;
   margin-bottom: 2rem;
@@ -250,9 +223,6 @@
 .team-bio {
   font-size: 0.85rem;
 }
-
-/* -------- CTA FINAL -------- */
-
 .about-cta-final {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -282,9 +252,6 @@
   flex-wrap: wrap;
   gap: 0.8rem;
 }
-
-/* -------- RESPONSIVE -------- */
-
 @media (max-width: 1024px) {
   .about-story-layout {
     grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);

@@ -1,63 +1,63 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0px;
-    padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 .imageNavMain {
-    width: 100%;
+  width: 100%;
 }
 
 #hotelsMain {
-    text-align: center;
-    width: 70%;
-    margin: auto auto;
-    margin-top: 5vh;
+  text-align: center;
+  width: 70%;
+  margin: auto auto;
+  margin-top: 5vh;
 }
 
 #hotelCards {
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 #cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .cardHotels {
-    width: 350px;
-    padding: 15px;
-    box-shadow: 10px 10px 5px lightgray;
-    border-width: 0px 0px 10px 0px;
-    border-color: --color-bg-dark;
-    border-style: solid;
-    border-radius: 0px 0px 5px 5px;
-    gap: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    background-image: url(../media/images/hotels/texturaPintura.png);
-    background-blend-mode: lighten;
-    background-size: cover;
+  width: 350px;
+  padding: 15px;
+  box-shadow: 10px 10px 5px lightgray;
+  border-width: 0px 0px 10px 0px;
+  border-color: --color-bg-dark;
+  border-style: solid;
+  border-radius: 0px 0px 5px 5px;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: url(../media/images/hotels/texturaPintura.png);
+  background-blend-mode: lighten;
+  background-size: cover;
 }
 
 .description {
-    width: 300px;
-    display: inline-flex;
-    vertical-align: middle;
+  width: 300px;
+  display: inline-flex;
+  vertical-align: middle;
 }
 
 .hotelImage {
-    width: 100%;
+  width: 100%;
 }
 
 .hotelName {
-    font-weight: bold;
-    font-size: 17pt;
+  font-weight: bold;
+  font-size: 17pt;
 }
 
 .hotelCategory,
@@ -65,84 +65,84 @@
 .hotelUserRating,
 .hotelCountRating,
 .hotelPriceMessage {
-    font-size: 10pt;
-    margin: 3px;
+  font-size: 10pt;
+  margin: 3px;
 }
 
 .hotelRating {
-    background-color: peru;
-    border-radius: 3px;
-    padding: 3px;
+  background-color: peru;
+  border-radius: 3px;
+  padding: 3px;
 }
 
 .hotelUserRating,
 .hotelCountRating,
 .hotelTags {
-    align-content: center;
-    color: grey;
+  align-content: center;
+  color: grey;
 }
 
 .description {
-    width: 310px;
-    margin-top: 5px;
+  width: 310px;
+  margin-top: 5px;
 }
 
 .price {
-    text-align: right;
+  text-align: right;
 }
 
 .hotelPriceOriginal {
-    text-decoration: line-through;
-    color: grey;
+  text-decoration: line-through;
+  color: grey;
 }
 
 .hotelPriceOffer {
-    font-size: 23pt;
-    color: darkred;
-    font-weight: bold;
+  font-size: 23pt;
+  color: darkred;
+  font-weight: bold;
 }
 
 .hotelLocation {
-    width: auto;
+  width: auto;
 }
 
 nav {
-    width: 88%;
-    display: inline-flex;
-    justify-content: flex-end;
-    margin: 30px 30px 0px 30px;
+  width: 88%;
+  display: inline-flex;
+  justify-content: flex-end;
+  margin: 30px 30px 0px 30px;
 }
 
 .navElement {
-    background-color: rgba(240, 128, 128, 0.2);
-    padding: 5px;
-    margin: 5px;
-    border: solid 1px lightgray;
-    border-bottom: solid 3px var(--color-primary);
-    cursor: pointer;
+  background-color: rgba(240, 128, 128, 0.2);
+  padding: 5px;
+  margin: 5px;
+  border: solid 1px lightgray;
+  border-bottom: solid 3px var(--color-primary);
+  cursor: pointer;
 }
 
 .navElement.main {
-    background-color: rgba(186, 85, 211, 0.5);
-    cursor: default;
+  background-color: rgba(186, 85, 211, 0.5);
+  cursor: default;
 }
 
 .navElement.text {
-    font-size: 9pt;
-    background-color: rgba(186, 85, 211, 0.5);
-    cursor: default;
+  font-size: 9pt;
+  background-color: rgba(186, 85, 211, 0.5);
+  cursor: default;
 }
 
 .message {
-    position: fixed;
-    top: 50vh;
-    left: 40vw;
-    text-align: center;
-    background-color: rgba(60, 179, 114, 0.8);
-    padding: 20px;
-    border-radius: 40px;
+  position: fixed;
+  top: 50vh;
+  left: 40vw;
+  text-align: center;
+  background-color: rgba(60, 179, 114, 0.8);
+  padding: 20px;
+  border-radius: 40px;
 }
 
 .icons {
-    height: 20px;
+  height: 20px;
 }

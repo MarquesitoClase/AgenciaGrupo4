@@ -1,149 +1,171 @@
 <!DOCTYPE html>
-<!-- v2 navbar paths, force deploy -->
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vuelos | Vértice Travel</title>
     <link rel="stylesheet" href="../css/base.css" />
     <link rel="stylesheet" href="../css/flights.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="site-header">
-        <div class="navbar">
-            <div class="navbarBrand">
-                <div class="nav-logo">
-                    <img src="../media/images/logoVerticeTravel.png" alt="Vértice Travel" class="nav-logo-image" />
-                </div>
-            </div>
-
-            <button class="nav-toggle" aria-label="Abrir menú">
-                <span></span><span></span><span></span>
-            </button>
-
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="cruises.html">Cruceros</a></li>
-                    <li><a href="trips.html">Viajes</a></li>
-                    <li><a href="flights.html">Vuelos</a></li>
-                    <li><a href="hotels.html">Hoteles</a></li>
-                    <li><a href="oferts.html">Ofertas</a></li>
-                    <li><a href="contact.html">Contacto</a></li>
-                    <li><a href="aboutUs.html">Sobre nosotros</a></li>
-                </ul>
-            </nav>
+      <div class="navbar">
+        <div class="navbarBrand">
+          <div class="nav-logo">
+            <img
+              src="../media/images/logoVerticeTravel.png"
+              alt="Vértice Travel"
+              class="nav-logo-image"
+            />
+          </div>
         </div>
+
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="cruises.html">Cruceros</a></li>
+            <li><a href="trips.html">Viajes</a></li>
+            <li><a href="flights.html">Vuelos</a></li>
+            <li><a href="hotels.html">Hoteles</a></li>
+            <li><a href="oferts.html">Ofertas</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            <li><a href="aboutUs.html">Sobre nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-        <section class="flightsHero">
-            <figure class="flightsHeroMedia">
-                <img src="../media/images/oceania1.jpg" alt="Vista aérea de bahía con playas curvas y mar azul intenso"
-                    class="flightsHeroImage" />
-            </figure>
+      <section class="flightsHero">
+        <figure class="flightsHeroMedia">
+          <img
+            src="../media/images/oceania1.jpg"
+            alt="Vista aérea de bahía con playas curvas y mar azul intenso"
+            class="flightsHeroImage"
+          />
+        </figure>
 
-            <div class="flightsHeroOverlay">
-                <p class="flightsHeroEyebrow">Vuelos Vértice Travel</p>
-                <h1 class="flightsHeroTitle">
-                    Del próximo clic<br />
-                    al próximo despegue
-                </h1>
-                <p class="flightsHeroText">
-                    Combinamos aerolíneas, horarios y conexiones para que llegues
-                    antes, con menos esperas y con tarifas realmente ajustadas.
-                </p>
+        <div class="flightsHeroOverlay">
+          <p class="flightsHeroEyebrow">Vuelos Vértice Travel</p>
+          <h1 class="flightsHeroTitle">
+            Del próximo clic<br />
+            al próximo despegue
+          </h1>
+          <p class="flightsHeroText">
+            Combinamos aerolíneas, horarios y conexiones para que llegues antes,
+            con menos esperas y con tarifas realmente ajustadas.
+          </p>
 
-                <form class="flightsHeroSearch" autocomplete="off">
-                    <div class="flightsHeroField">
-                        <label for="from">Origen</label>
-                        <input type="text" id="from" name="from" placeholder="Barcelona (BCN)" />
-                    </div>
-                    <div class="flightsHeroField">
-                        <label for="to">Destino</label>
-                        <input type="text" id="to" name="to" placeholder="Tokio (HND)" />
-                    </div>
-                    <div class="flightsHeroField flightsHeroField--short">
-                        <label for="date">Fecha</label>
-                        <input type="date" id="date" name="date" />
-                    </div>
-                    <button type="button" class="btn btn-primary flightsHeroButton">
-                        Ver opciones
-                    </button>
-                </form>
+          <form class="flightsHeroSearch" autocomplete="off">
+            <div class="flightsHeroField">
+              <label for="from">Origen</label>
+              <input
+                type="text"
+                id="from"
+                name="from"
+                placeholder="Barcelona (BCN)"
+              />
             </div>
-        </section>
-
-        <section class="flightOffersSection">
-            <div class="flightOffersHeader">
-                <span class="flightOffersEyebrow">Ofertas seleccionadas</span>
-                <h2 class="flightOffersTitle">Vuelos que merecen despegar</h2>
-                <p class="flightOffersIntro">
-                    Te mostramos una selección de rutas muy demandadas por nuestros
-                    viajeros: horarios cómodos, buenas conexiones y una relación
-                    calidad–precio que realmente compensa.
-                </p>
+            <div class="flightsHeroField">
+              <label for="to">Destino</label>
+              <input type="text" id="to" name="to" placeholder="Tokio (HND)" />
             </div>
-
-            <div class="flightOffersContainer">
-                <ul class="flightOffersGrid" id="flightOffersGrid"></ul>
+            <div class="flightsHeroField flightsHeroField--short">
+              <label for="date">Fecha</label>
+              <input type="date" id="date" name="date" />
             </div>
-        </section>
+            <button type="button" class="btn btn-primary flightsHeroButton">
+              Ver opciones
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="flightOffersSection">
+        <div class="flightOffersHeader">
+          <span class="flightOffersEyebrow">Ofertas seleccionadas</span>
+          <h2 class="flightOffersTitle">Vuelos que merecen despegar</h2>
+          <p class="flightOffersIntro">
+            Te mostramos una selección de rutas muy demandadas por nuestros
+            viajeros: horarios cómodos, buenas conexiones y una relación
+            calidad–precio que realmente compensa.
+          </p>
+        </div>
+
+        <div class="flightOffersContainer">
+          <ul class="flightOffersGrid" id="flightOffersGrid"></ul>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
-        <div class="container footer-grid">
-            <div class="footer-brand">
-                <img src="../media/images/logoVerticeTravelDorado.png" alt="Vértice Travel" class="footerLogo" />
-                <p>
-                    Viajes y experiencias diseñadas al detalle desde España hacia los
-                    destinos más extraordinarios del planeta: cruceros, grandes vuelos
-                    y escapadas únicas.
-                </p>
-            </div>
-
-            <div class="footerColumn">
-                <h3 class="footerTitle">Contacto</h3>
-                <ul class="footer-links">
-                    <li>
-                        <a href="mailto:hola@verticetravel.com">hola@verticetravel.com</a>
-                    </li>
-                    <li><a href="tel:+34900000123">+34 900 000 123</a></li>
-                </ul>
-            </div>
-
-            <div class="footerColumn">
-                <h3 class="footerTitle">Vértice Travel</h3>
-                <ul class="footer-links">
-                    <li><a href="aboutUs.html">Sobre nosotros</a></li>
-                    <li><a href="#equipo">Nuestro equipo</a></li>
-                </ul>
-            </div>
-
-            <div class="footerColumn">
-                <h3 class="footerTitle">Síguenos</h3>
-                <ul class="footer-links">
-                    <li>
-                        <a href="https://x.com/VerticeTravel" target="_blank" rel="noopener noreferrer">
-                            X
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/VerticeTravel" target="_blank" rel="noopener noreferrer">
-                            Instagram
-                        </a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img
+            src="../media/images/logoVerticeTravelDorado.png"
+            alt="Vértice Travel"
+            class="footerLogo"
+          />
+          <p>
+            Viajes y experiencias diseñadas al detalle desde España hacia los
+            destinos más extraordinarios del planeta: cruceros, grandes vuelos y
+            escapadas únicas.
+          </p>
         </div>
 
-        <div class="container footer-bottom">
-            <p>© 2025 Vértice Travel. Todos los derechos reservados.</p>
+        <div class="footerColumn">
+          <h3 class="footerTitle">Contacto</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="mailto:hola@verticetravel.com">hola@verticetravel.com</a>
+            </li>
+            <li><a href="tel:+34900000123">+34 900 000 123</a></li>
+          </ul>
         </div>
+
+        <div class="footerColumn">
+          <h3 class="footerTitle">Vértice Travel</h3>
+          <ul class="footer-links">
+            <li><a href="aboutUs.html">Sobre nosotros</a></li>
+            <li><a href="#equipo">Nuestro equipo</a></li>
+          </ul>
+        </div>
+
+        <div class="footerColumn">
+          <h3 class="footerTitle">Síguenos</h3>
+          <ul class="footer-links">
+            <li>
+              <a
+                href="https://x.com/VerticeTravel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                X
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/VerticeTravel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2025 Vértice Travel. Todos los derechos reservados.</p>
+      </div>
     </footer>
 
     <script src="../js/flights.js"></script>
-</body>
-
+  </body>
 </html>
