@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const playButton = document.getElementById("hero-play-button");
 
   if (video && overlay && playButton) {
-    const introSrc = "../media/videos/VerticeTravelNarracion.mp4";
-    const loopSrc = "../media/videos/VerticeTravelBucle.mp4";
+    const introSrc = "media/videos/VerticeTravelNarracion.mp4";
+    const loopSrc = "media/videos/VerticeTravelBucle.mp4";
 
     video.src = introSrc;
     video.loop = false;
